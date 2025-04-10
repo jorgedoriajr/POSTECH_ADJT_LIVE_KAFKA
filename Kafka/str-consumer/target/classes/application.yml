@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: str-consumer
+  kafka:
+    consumer:
+      bootstrap.servers: localhost:29092
